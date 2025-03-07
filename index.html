@@ -40,7 +40,7 @@ var snake = {
   cells: [],
   
   // length of the snake. grows when eating an apple
-  maxCells: 10
+  maxCells: 50
 };
 var apple = {
   x: 320,
@@ -121,7 +121,7 @@ function loop() {
         snake.x = 160;
         snake.y = 160;
         snake.cells = [];
-        snake.maxCells = 10;
+        snake.maxCells = 50;
         snake.dx = grid;
         snake.dy = 0;
 
